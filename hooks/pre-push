@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Runs the safety scan before every push. Enable it once per clone with:
+#   git config core.hooksPath hooks
+# Bypass a single push with:  git push --no-verify
+exec "$(git rev-parse --show-toplevel)/scripts/check.sh"
