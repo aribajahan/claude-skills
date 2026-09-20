@@ -41,6 +41,9 @@ path is needed. Point it at your own workspace root, and adjust the placeholder 
 - **content-seed**: catch an observation worth writing about later, before it's lost.
 - **brain-dump**: catch what you said thinking out loud, and sort it before writing anything.
 
+### Meta
+- **prepare-for-sharing**: turn a private skill into a clean, publicly shareable copy without leaking anything. The method that produced this repo, including the skill you're reading.
+
 ## Using these
 
 Skills load from `~/.claude/skills/` (or a symlink to it). Copy the folders you want into
