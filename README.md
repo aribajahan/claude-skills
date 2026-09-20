@@ -52,6 +52,22 @@ and invoke a skill by name or by the trigger phrases in its `description`.
 
 Each skill is self-contained except the research scans, which all read `research-playbook.md`.
 
+## Safety check
+
+`scripts/check.sh` scans the repo for anything that shouldn't ship: private paths or
+identifiers, stray em dashes, skills with broken frontmatter, and skills missing the
+injection guardrail. Run it any time with `scripts/check.sh`.
+
+It also runs automatically before every push, as a pre-push hook. Enable the hook once per
+clone with:
+
+```
+git config core.hooksPath hooks
+```
+
+A failed check blocks the push and prints what to fix. To push anyway in a case you're sure
+about, use `git push --no-verify`.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
