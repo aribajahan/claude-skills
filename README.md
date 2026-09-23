@@ -46,6 +46,8 @@ path is needed. Point it at your own workspace root, and adjust the placeholder 
 ### Capture
 - **content-seed**: catch an observation worth writing about later, before it's lost.
 - **brain-dump**: catch what you said thinking out loud, and sort it before writing anything.
+- **granola-sync**: weekly sync of new Granola meetings into a local markdown archive with
+  an index by date and person. Needs the Granola MCP connector.
 
 ### Meta
 - **prepare-for-sharing**: turn a private skill into a clean, publicly shareable copy without leaking anything. The method that produced this repo, including the skill you're reading.
