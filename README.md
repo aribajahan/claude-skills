@@ -58,6 +58,12 @@ path is needed. Point it at your own workspace root, and adjust the placeholder 
   email, `/do emails` drafts a reply, `/do courses` extracts frameworks from course
   transcripts, `/do calendar` adds an event, or `/do` with a plain instruction.
 
+### System health
+- **system-check**: multi-agent health check. Dispatches 8 parallel subagents -- path
+  integrity, git health, scheduled tasks, frontmatter validation, config/credentials,
+  public repo leak scan, instruction file consistency, and reference file staleness -- then
+  collects findings into one prioritized report.
+
 ### Meta
 - **prepare-for-sharing**: turn a private skill into a clean, publicly shareable copy without leaking anything. The method that produced this repo, including the skill you're reading.
 
