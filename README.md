@@ -55,9 +55,8 @@ path is needed. Point it at your own workspace root, and adjust the placeholder 
   `/ask courses` searches course transcripts, `/ask reference` searches your reference files,
   or `/ask` searches everything.
 - **do**: the action counterpart to `/ask`. `/do [person]` preps for a session or drafts an
-  email, `/do emails` triages your inbox, `/do courses` extracts frameworks from course
-  transcripts, `/do sync|wrap|drift` dispatches to existing skills, or `/do` with a plain
-  instruction.
+  email, `/do emails` drafts a reply, `/do courses` extracts frameworks from course
+  transcripts, `/do calendar` adds an event, or `/do` with a plain instruction.
 
 ### Meta
 - **prepare-for-sharing**: turn a private skill into a clean, publicly shareable copy without leaking anything. The method that produced this repo, including the skill you're reading.
