@@ -43,6 +43,19 @@ path is needed. Point it at your own workspace root, and adjust the placeholder 
   your playbook rules, fixes what it can directly in the report files, and flags what it
   can't. Needs research desks producing dated reports and a playbook or rules file.
 
+### Meeting prep
+- **meeting-prep**: one-page brief before a meeting with someone. Pulls meeting transcripts,
+  people file, email threads, web search, project files, and daily logs. Surfaces what you
+  said you'd do, what they said they'd do, and what's changed since.
+
+### Agent evaluation
+- **agent-performance**: monthly review of agent edit rates, drift recurrence, post-run
+  corrections, and missed runs. Tracks which rules get broken most and whether agents are
+  improving over time.
+- **research-eval**: test suite for research-agent-audit. Synthetic reports with planted
+  issues and answer keys, scored against detection rate, false positive rate, and fix
+  accuracy. Test cases accumulate from real findings.
+
 ### Capture
 - **content-seed**: catch an observation worth writing about later, before it's lost.
 - **brain-dump**: catch what you said thinking out loud, and sort it before writing anything.
