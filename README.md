@@ -25,6 +25,9 @@ path is needed. Point it at your own workspace root, and adjust the placeholder 
 - **map**: regenerate an index of the skills in your system from their frontmatter.
 - **decision-log**: capture a decision: what was decided, why, and what was ruled out.
 - **drift-check**: read-only audit that finds the parts of a skill system that broke quietly.
+- **drift-fix**: the repair companion to drift-check. Fixes broken path references (when
+  there's exactly one match on disk) and git filename case mismatches. Everything requiring
+  judgment stays in drift-check's report for you.
 
 ### Research
 - **research-playbook.md**: the shared contract every research scan reads first: how to
@@ -36,6 +39,9 @@ path is needed. Point it at your own workspace root, and adjust the placeholder 
 - **product-strategy-scan**: how products are built and positioned to win.
 - **growth-marketing-scan**: how companies acquire, activate, and retain users.
 - **research-synthesis**: reads across the scan reports and says what's worth writing about.
+- **research-agent-audit**: a second-pass agent that audits research desk outputs against
+  your playbook rules, fixes what it can directly in the report files, and flags what it
+  can't. Needs research desks producing dated reports and a playbook or rules file.
 
 ### Capture
 - **content-seed**: catch an observation worth writing about later, before it's lost.
